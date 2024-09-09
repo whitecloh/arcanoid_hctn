@@ -83,6 +83,7 @@ namespace Main.Scripts.Managers
             if(PointsAdded < PointsInBlocks) return;
 
             HandleCursorActive(true);
+            ShowHideLevel(false);
             
             SaveManager.Instance.SetLevelComplete();
             
