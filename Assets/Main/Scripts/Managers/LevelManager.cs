@@ -113,6 +113,7 @@ namespace Main.Scripts.Managers
         {
             if(!Input.GetKeyDown(KeyCode.Escape)) return;
             
+            HandleCursorActive(true);
             LoadScene(0);
         }
 

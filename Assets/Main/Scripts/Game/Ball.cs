@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Main.Scripts.Data;
 using Main.Scripts.Managers;
@@ -30,21 +31,28 @@ namespace Main.Scripts.Game
             _currentSpeed = _ballData.Speed;
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
-            if(_currentDirection == Vector2.zero) return;
-
+            if (_currentDirection == Vector2.zero) return;
             _rb2D.velocity = _currentDirection * _currentSpeed;
             _rb2D.velocity = Vector2.ClampMagnitude(_rb2D.velocity, _ballData.Speed * 1.5f);
-        
+                
+            if (_rb2D.velocity.magnitude < 0.1f)
+            {
+                _rb2D.velocity = _currentDirection * 0.1f;
+            }
         }
+
 
         private void OnCollisionEnter2D(Collision2D other)
         {
             var block = other.gameObject.GetComponentInParent<Block>();
             var damageWall = other.gameObject.GetComponent<DamageLine>();
 
-            _currentDirection = Vector2.Reflect(_currentDirection, other.contacts[0].normal);
+            if (other.contacts.Length > 0)
+            {
+                _currentDirection = Vector2.Reflect(_currentDirection, other.contacts[0].normal);
+            }
         
             if (block != null)
             {
