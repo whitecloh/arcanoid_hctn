@@ -88,7 +88,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: 78f7f3cf459d89848a10787dd79ba857, type: 3}
       middleImage: {fileID: 21300000, guid: ba78b50161072c340b611a877e2f8b45, type: 3}
@@ -164,7 +163,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: 694fbd8f7564ea745b4f1f08d3637dcd, type: 3}
       middleImage: {fileID: 21300000, guid: 02ac44662b506ae46b2162486f69a5b7, type: 3}
@@ -300,7 +298,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: c6e8b42c549e1c5418c11647cb9deefc, type: 3}
       middleImage: {fileID: 21300000, guid: 11597d110cdbee442ad210c997159251, type: 3}
@@ -310,7 +307,7 @@ MonoBehaviour:
       startPosition: {x: 0, y: -100, z: 0}
       platformSize: {x: 40, y: 5}
       moveSpeed: 100
-      healths: 3
+      healths: 4
     ballData:
       startPosition: {x: 0, y: -90, z: 0}
       speed: 100
@@ -460,7 +457,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: 834b96f19df63834d9429ce3e0e9dbb5, type: 3}
       middleImage: {fileID: 21300000, guid: 4d07f500ba7011444a5881f2eac3e4a5, type: 3}
@@ -470,7 +466,7 @@ MonoBehaviour:
       startPosition: {x: 0, y: -100, z: 0}
       platformSize: {x: 40, y: 5}
       moveSpeed: 100
-      healths: 3
+      healths: 4
     ballData:
       startPosition: {x: 0, y: -90, z: 0}
       speed: 100
@@ -700,7 +696,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: 80c68132e06b7da4cb65a173c1d9fe73, type: 3}
       middleImage: {fileID: 21300000, guid: 39f2f1e858db23b4f82ffc72e37729a2, type: 3}
@@ -710,7 +705,7 @@ MonoBehaviour:
       startPosition: {x: 0, y: -100, z: 0}
       platformSize: {x: 40, y: 5}
       moveSpeed: 100
-      healths: 3
+      healths: 4
     ballData:
       startPosition: {x: 0, y: -90, z: 0}
       speed: 100
@@ -936,7 +931,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: c7c9c5aebd6597f438bc24f55fc1471f, type: 3}
       middleImage: {fileID: 21300000, guid: 0212ea6ff19dbff4e8ba04287340d52e, type: 3}
@@ -946,7 +940,7 @@ MonoBehaviour:
       startPosition: {x: 0, y: -100, z: 0}
       platformSize: {x: 40, y: 5}
       moveSpeed: 100
-      healths: 3
+      healths: 5
     ballData:
       startPosition: {x: 0, y: -90, z: 0}
       speed: 100
@@ -1188,7 +1182,6 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0
   - art:
       backgroundImage: {fileID: 21300000, guid: ead68376e0da56044b8aa16281b467f7, type: 3}
       middleImage: {fileID: 21300000, guid: 2fcb809cb4488af4bbfe9ef8834677bb, type: 3}
@@ -1198,7 +1191,7 @@ MonoBehaviour:
       startPosition: {x: 0, y: -100, z: 0}
       platformSize: {x: 40, y: 5}
       moveSpeed: 100
-      healths: 3
+      healths: 5
     ballData:
       startPosition: {x: 0, y: -90, z: 0}
       speed: 100
@@ -1424,4 +1417,3 @@ MonoBehaviour:
       duration: 3
       changeValue: 0
       sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
-    isNeedRandomGeneration: 0

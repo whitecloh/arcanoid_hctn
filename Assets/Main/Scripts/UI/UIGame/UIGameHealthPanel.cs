@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Main.Scripts.UI.UIGame
@@ -23,6 +24,15 @@ namespace Main.Scripts.UI.UIGame
             
                 ItemsPool.Add(prefab);
             }
+        }
+
+        public void RemoveHealths()
+        {
+            var item = ItemsPool.LastOrDefault(o => o.isActive);
+            
+            if(item == null) return;
+            
+            item.Remove();
         }
     }
 }

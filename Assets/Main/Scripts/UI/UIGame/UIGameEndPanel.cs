@@ -12,9 +12,9 @@ namespace Main.Scripts.UI.UIGame
     
         public UIGame Owner { get; set; }
 
-        public void Show(bool isLevelComplete = false , bool isEscape = false)
+        public void Show(bool isLevelComplete = false)
         {
-            title.text = isLevelComplete ? "Congratulations" : isEscape ? "Menu" : "Try again";
+            title.text = isLevelComplete ? "Congratulations" : "Try again";
             nextButton.gameObject.SetActive(isLevelComplete);
             restartButton.gameObject.SetActive(!isLevelComplete);
             gameObject.SetActive(true);

@@ -37,7 +37,7 @@ namespace Main.Scripts.UI.UIGame
             uiGameEndPanel.Hide();
         }
 
-        public void ShowEndPanel(bool isLevelComplete = false, bool isEscape = false)
+        public void ShowEndPanel(bool isLevelComplete = false)
         {
             uiGameEndPanel.Owner = this;
             uiGameEndPanel.Show(isLevelComplete);
@@ -47,6 +47,11 @@ namespace Main.Scripts.UI.UIGame
         {
             uiGamePointsPanel.UpdatePoints(pointsAdded);
             uiGameEffectsPanel.ShowEffect(data.Type);
+        }
+
+        public void UIHandleBallLost()
+        {
+            uiGameHealthPanel.RemoveHealths();
         }
     }
 }

@@ -96,8 +96,13 @@ namespace Main.Scripts.Managers
             _playerHealths--;
             
             playerController.HandleBallLost();
-            
-            if(_playerHealths <= 0) ShowHideLevel(false);
+            uiGame.UIHandleBallLost();
+
+            if (_playerHealths <= 0)
+            {
+                ShowHideLevel(false);
+                uiGame.ShowEndPanel();
+            }
             
             HandleCursorActive(true);
             SoundManager.Instance.PlaySound(_playerHealths <= 0 ? SoundType.LostLevel : SoundType.DamageHit);
