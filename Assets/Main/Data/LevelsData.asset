@@ -1,0 +1,1427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266e132f0a13ed74080e2d5c9625081f, type: 3}
+  m_Name: LevelsData
+  m_EditorClassIdentifier: 
+  levels:
+  - art:
+      backgroundImage: {fileID: 21300000, guid: 2ac120fa63dc027478e78277f792b1f7, type: 3}
+      middleImage: {fileID: 21300000, guid: 1d758b0d7f2dd274790e2c03a3cd6c6e, type: 3}
+      closeImage: {fileID: 21300000, guid: 51410c1f49255b4478e5091456517aed, type: 3}
+      fadeImage: {fileID: 21300000, guid: 62e886b27e8f252468e2eb6a4d4de672, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 0
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 4
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 6
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 10
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 12
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 14
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 16
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 18
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 20
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: 78f7f3cf459d89848a10787dd79ba857, type: 3}
+      middleImage: {fileID: 21300000, guid: ba78b50161072c340b611a877e2f8b45, type: 3}
+      closeImage: {fileID: 21300000, guid: 4561cb93bb6219042bddf157c9b7b02e, type: 3}
+      fadeImage: {fileID: 21300000, guid: bbe5ee4d9b9f764469266185b35c9acc, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 0
+      type: 2
+      isActive: 1
+      health: 2
+    - blockIndex: 1
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 3
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 4
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 5
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 6
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 7
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 9
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 10
+      type: 2
+      isActive: 1
+      health: 2
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: 694fbd8f7564ea745b4f1f08d3637dcd, type: 3}
+      middleImage: {fileID: 21300000, guid: 02ac44662b506ae46b2162486f69a5b7, type: 3}
+      closeImage: {fileID: 21300000, guid: 52b7938e2c6748e488dcf657f6fb1b92, type: 3}
+      fadeImage: {fileID: 21300000, guid: 336b08795e29faf4cb3e73e31b881efb, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 3
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 4
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 5
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 6
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 7
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 26
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 27
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 28
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 37
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 39
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 48
+      type: 3
+      isActive: 1
+      health: 2
+    - blockIndex: 49
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 59
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 61
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 70
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 71
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 72
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 90
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 91
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 92
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 93
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 94
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 95
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 96
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: c6e8b42c549e1c5418c11647cb9deefc, type: 3}
+      middleImage: {fileID: 21300000, guid: 11597d110cdbee442ad210c997159251, type: 3}
+      closeImage: {fileID: 21300000, guid: 78f1dd5d82d157c42ac3fca9eb4da26b, type: 3}
+      fadeImage: {fileID: 21300000, guid: e562732932064e745a28be46d35a25f8, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 0
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 1
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 2
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 3
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 4
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 5
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 6
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 7
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 9
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 10
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 21
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 22
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 32
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 33
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 43
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 44
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 54
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 55
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 65
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 66
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 76
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 77
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 87
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 88
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 89
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 91
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 92
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 94
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 95
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 97
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 98
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: 834b96f19df63834d9429ce3e0e9dbb5, type: 3}
+      middleImage: {fileID: 21300000, guid: 4d07f500ba7011444a5881f2eac3e4a5, type: 3}
+      closeImage: {fileID: 21300000, guid: 364ec6fd06f59c240b2b23826f77c7d9, type: 3}
+      fadeImage: {fileID: 21300000, guid: fc60dff97913aca4187550651bedc5bd, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 3
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 8
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 9
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 11
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 13
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 19
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 20
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 21
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 22
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 24
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 30
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 32
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 33
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 35
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 36
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 37
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 39
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 41
+      type: 2
+      isActive: 1
+      health: 3
+    - blockIndex: 43
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 44
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 45
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 46
+      type: 2
+      isActive: 1
+      health: 2
+    - blockIndex: 47
+      type: 2
+      isActive: 1
+      health: 2
+    - blockIndex: 48
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 50
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 52
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 54
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 55
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 57
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 59
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 61
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 63
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 65
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 66
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 68
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 70
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 71
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 72
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 73
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 74
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 76
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 77
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 79
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 80
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 81
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 82
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 83
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 84
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 85
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 86
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 87
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: 80c68132e06b7da4cb65a173c1d9fe73, type: 3}
+      middleImage: {fileID: 21300000, guid: 39f2f1e858db23b4f82ffc72e37729a2, type: 3}
+      closeImage: {fileID: 21300000, guid: bf89dcac09ad5bc438b9643ff08f3948, type: 3}
+      fadeImage: {fileID: 21300000, guid: 6ebe6d1abd3388543b0b983985d9f7ea, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 4
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 5
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 6
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 15
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 16
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 17
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 26
+      type: 2
+      isActive: 1
+      health: 3
+    - blockIndex: 27
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 28
+      type: 2
+      isActive: 1
+      health: 3
+    - blockIndex: 33
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 34
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 35
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 36
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 37
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 38
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 39
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 40
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 41
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 42
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 43
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 44
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 45
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 46
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 47
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 48
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 49
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 50
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 51
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 52
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 53
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 54
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 55
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 56
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 57
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 58
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 59
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 60
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 61
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 62
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 63
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 64
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 65
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 70
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 71
+      type: 2
+      isActive: 1
+      health: 3
+    - blockIndex: 72
+      type: 3
+      isActive: 1
+      health: 3
+    - blockIndex: 81
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 82
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 83
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 92
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 93
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 94
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: c7c9c5aebd6597f438bc24f55fc1471f, type: 3}
+      middleImage: {fileID: 21300000, guid: 0212ea6ff19dbff4e8ba04287340d52e, type: 3}
+      closeImage: {fileID: 21300000, guid: 4a3f49ce479db744a97eee0a2a3e3684, type: 3}
+      fadeImage: {fileID: 21300000, guid: 7ac62c1327698ef4e8d2686824c5d4cf, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 0
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 1
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 3
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 4
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 5
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 6
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 7
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 9
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 10
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 22
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 23
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 24
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 25
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 26
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 27
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 28
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 29
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 30
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 31
+      type: 2
+      isActive: 1
+      health: 1
+    - blockIndex: 32
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 44
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 45
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 46
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 47
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 48
+      type: 1
+      isActive: 1
+      health: 3
+    - blockIndex: 49
+      type: 2
+      isActive: 1
+      health: 3
+    - blockIndex: 50
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 51
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 52
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 53
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 54
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 66
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 67
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 68
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 69
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 70
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 71
+      type: 3
+      isActive: 1
+      health: 3
+    - blockIndex: 72
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 73
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 74
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 75
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 76
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 88
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 89
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 90
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 91
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 92
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 93
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 94
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 95
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 96
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 97
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 98
+      type: 0
+      isActive: 1
+      health: 1
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
+  - art:
+      backgroundImage: {fileID: 21300000, guid: ead68376e0da56044b8aa16281b467f7, type: 3}
+      middleImage: {fileID: 21300000, guid: 2fcb809cb4488af4bbfe9ef8834677bb, type: 3}
+      closeImage: {fileID: 21300000, guid: 13285b5bbc209714485a41d6b1f637d5, type: 3}
+      fadeImage: {fileID: 21300000, guid: f4031e2b78eab4b4fa5392926d03957a, type: 3}
+    playerData:
+      startPosition: {x: 0, y: -100, z: 0}
+      platformSize: {x: 40, y: 5}
+      moveSpeed: 100
+      healths: 3
+    ballData:
+      startPosition: {x: 0, y: -90, z: 0}
+      speed: 100
+    blocksData:
+    - blockIndex: 0
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 2
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 4
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 6
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 8
+      type: 3
+      isActive: 1
+      health: 1
+    - blockIndex: 10
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 12
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 14
+      type: 1
+      isActive: 1
+      health: 1
+    - blockIndex: 16
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 18
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 20
+      type: 3
+      isActive: 1
+      health: 3
+    - blockIndex: 22
+      type: 3
+      isActive: 1
+      health: 3
+    - blockIndex: 24
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 25
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 26
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 28
+      type: 2
+      isActive: 1
+      health: 2
+    - blockIndex: 30
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 32
+      type: 2
+      isActive: 1
+      health: 2
+    - blockIndex: 34
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 36
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 38
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 40
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 42
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 44
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 46
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 48
+      type: 3
+      isActive: 1
+      health: 2
+    - blockIndex: 50
+      type: 3
+      isActive: 1
+      health: 2
+    - blockIndex: 52
+      type: 3
+      isActive: 1
+      health: 2
+    - blockIndex: 54
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 56
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 58
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 60
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 62
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 64
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 66
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 68
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 70
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 72
+      type: 3
+      isActive: 1
+      health: 3
+    - blockIndex: 74
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 76
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 78
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 80
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 82
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 84
+      type: 3
+      isActive: 1
+      health: 2
+    - blockIndex: 86
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 88
+      type: 0
+      isActive: 1
+      health: 3
+    - blockIndex: 90
+      type: 1
+      isActive: 1
+      health: 2
+    - blockIndex: 92
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 94
+      type: 0
+      isActive: 1
+      health: 2
+    - blockIndex: 96
+      type: 0
+      isActive: 1
+      health: 1
+    - blockIndex: 98
+      type: 2
+      isActive: 1
+      health: 2
+    effects:
+    - type: 0
+      duration: 0
+      changeValue: 0
+      sprite: {fileID: 1448620292, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 1
+      duration: 5
+      changeValue: 1.5
+      sprite: {fileID: 306088539, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 2
+      duration: 5
+      changeValue: 0.7
+      sprite: {fileID: 248333263, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    - type: 3
+      duration: 3
+      changeValue: 0
+      sprite: {fileID: -956601783, guid: 9f04bfca8234a4645b5d2d0c093ab751, type: 3}
+    isNeedRandomGeneration: 0
